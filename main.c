@@ -6,7 +6,7 @@ int main(void) {
     const int min = 0;
     const int max = 2;
     int mossaC, mossaG;
-    int vitC = 0, vitG = 0; //vitc vittoria computer vitg vittoria giocatore
+    int vitC = 0, vitG = 0; //vitC vittoria computer vitG vittoria giocatore
     srand(time(NULL));
     mossaC = rand() % (max - min + 1) + min;
     switch (mossaC) {
