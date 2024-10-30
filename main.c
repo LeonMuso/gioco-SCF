@@ -24,7 +24,7 @@ int main(void) {
     }
     // 0 sasso /1/ 2 carta /2/ 5 forbici
     do {
-        printf("scegli la mossa:  \n");
+        printf("scegli la mossa |0|sasso |1|carta |2|forbici :  \n");
         scanf("%d", &mossaG);
         if(mossaG == -1) {
             break;
